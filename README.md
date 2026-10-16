@@ -1,7 +1,7 @@
 # zapret
 1. Откройте лаунчер, перейдите в настройки (**OPTIONS**) на вкладку **Miscellaneous** и убедитесь в том, что установлена галочка **Use GameSpy proxy**.
 2. Скачайте последнюю версию **zapret** [отсюда](https://github.com/Flowseal/zapret-discord-youtube/releases).
-3. В файл **lists/ipset-all.txt** добавляем содержимое [файла](https://raw.githubusercontent.com/123jjck/cdn-ip-ranges/refs/heads/main/hetzner/hetzner_plain_ipv4.txt).
+3. В файл **lists/ipset-all.txt** вставьте содержимое [файла](https://raw.githubusercontent.com/123jjck/cdn-ip-ranges/refs/heads/main/hetzner/hetzner_plain_ipv4.txt).
 4. Запустите **service.bat** и включаем **Game Filter** для **UDP**.
 5. Методом перебора подберите рабочий батник для вашего оператора/провайдера (на проводном МТС на данный момент работают **general (EXP).bat** и **general (FAKE TLS AUTO ALT/2/3).bat**).
 
