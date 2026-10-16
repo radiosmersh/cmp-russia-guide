@@ -1,2 +1,15 @@
-# fh2-cmp-guide
-cmp-russia-guide
+# zapret
+1. Откройте лаунчер, перейдите в настройки (**OPTIONS**) на вкладку **Miscellaneous** и убедитесь в том, что установлена галочка **Use GameSpy proxy**.
+2. Скачайте последнюю версию **zapret** [отсюда](https://github.com/Flowseal/zapret-discord-youtube/releases).
+3. В файл **lists/ipset-all.txt** добавляем содержимое [файла](https://raw.githubusercontent.com/123jjck/cdn-ip-ranges/refs/heads/main/hetzner/hetzner_plain_ipv4.txt).
+4. Запустите **service.bat** и включаем **Game Filter** для **UDP**.
+5. Методом перебора подберите рабочий батник для вашего оператора/провайдера (на проводном МТС на данный момент работают **general (EXP).bat** и **general (FAKE TLS AUTO ALT/2/3).bat**).
+
+# WARP 
+1. Перейдите на [страницу](https://warp-generation.github.io/) и выберите любой из вариантов для **AmneziaWG**.
+2. Установите [**AmneziaWG**](https://github.com/amnezia-vpn/amneziawg-windows-client/releases/latest)
+3. Откройте **AmneziaWG**, нажмите на **Добавить туннель**, далее нажмите на **Добавить пустой тоннель** и импортируйте файл с конфигурацией из п. 2.
+4. Выберите импортированную конфигурацию и нажмите **Подключить**.
+
+# ProtonVPN
+Перейдите на [страницу](https://proton-generation.github.io/), нажмите **«Подключиться и получить серверы»**. После создания временного аккаунта выберите страну (для наименьшего пинга рекомендуем Нидерланды или Польшу — **NL**/**PL**) и нажмите **«Сгенерировать конфиг»**, затем **«Скачать .conf файл»**. Если данная конфигурация не заработает, то нажмите **Скачать .conf файл каждой страны** и методом перебора найдите рабочую.
